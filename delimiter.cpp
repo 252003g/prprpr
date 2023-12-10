@@ -88,13 +88,13 @@ int main()
                     obj.push(ch);
                     break;
                 case ')': 
-                    obj.push(ch);
+                    obj.pop();
                     break;
                 case ']': 
-                    obj.push(ch);
+                    obj.pop();
                     break;
                 case '}': 
-                    obj.push(ch);
+                    obj.pop();
                     break;
             }
             i= i+1;
